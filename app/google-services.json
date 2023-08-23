@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1098001549191",
+    "project_id": "eva04-ffd2c",
+    "storage_bucket": "eva04-ffd2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098001549191:android:22b7000f6554af305b3522",
+        "android_client_info": {
+          "package_name": "com.daniel.evaluacion04"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098001549191-4gjj1rtguq7hmd63r9i8a9m97gaqm6l0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.daniel.evaluacion04",
+            "certificate_hash": "c54c480ed564c21223791bb3c0343d6d00115a18"
+          }
+        },
+        {
+          "client_id": "1098001549191-pp54i9jt0aoah6pimv5ia1jp7pogl7i3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBId2z2eq-G18GcWR1pjLMURZWrDmEvsn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098001549191-gigjcjvaf22tgen47q581d0t7ujucuni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D5CFB6"
+    tools:context=".view.fragments.InfoFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="Sportmonks"
+        android:textAlignment="center"
+        android:textSize="34dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:padding="40dp"
+        android:text="DATOS IMPECABLES EN UN
+PRECIO JUSTO, CONSISTENTEMENTE
+MÁS RÁPIDO QUE NADIE."
+        android:textAlignment="viewStart"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:padding="40dp"
+        android:textStyle="bold"
+        android:text="NUESTROS DESARROLLADORES DE ÉLITE SON FANÁTICOS ACÉRRIMOS DE LOS DEPORTES."
+        android:textAlignment="viewStart"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:padding="40dp"
+        android:text="Hace casi una década, necesitábamos datos de calidad para impulsar una aplicación en desarrollo y nos encontramos con un obstáculo: un precio escandaloso. Al buscar opciones más rentables, nos encontramos ahogados en un mar de proveedores impredecibles; Si marcaban una de nuestras casillas, se perdían una docena más. Fue entonces cuando decidimos recopilar nuestros propios datos."
+        android:textAlignment="viewStart"
+        android:textSize="20dp" />
+
+</FrameLayout>

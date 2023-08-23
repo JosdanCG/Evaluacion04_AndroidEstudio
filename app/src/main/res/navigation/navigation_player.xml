@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_player"
+    app:startDestination="@id/listFragment2">
+
+    <fragment
+        android:id="@+id/listFragment2"
+        android:name="com.daniel.evaluacion04.view.fragments.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment2_to_detalleFragment"
+            app:destination="@id/detalleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detalleFragment"
+        android:name="com.daniel.evaluacion04.view.fragments.DetalleFragment"
+        android:label="fragment_detalle"
+        tools:layout="@layout/fragment_detalle" >
+        <argument
+            android:name="player"
+            app:argType="com.daniel.evaluacion04.model.Player" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoritosFragment2"
+        android:name="com.daniel.evaluacion04.view.fragments.FavoritosFragment"
+        android:label="fragment_favoritos"
+        tools:layout="@layout/fragment_favoritos" >
+        <action
+            android:id="@+id/action_favoritosFragment2_to_detalleFragment"
+            app:destination="@id/detalleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/agregarFragment2"
+        android:name="com.daniel.evaluacion04.view.fragments.AgregarFragment"
+        android:label="fragment_agregar"
+        tools:layout="@layout/fragment_agregar" />
+    <fragment
+        android:id="@+id/infoFragment2"
+        android:name="com.daniel.evaluacion04.view.fragments.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+</navigation>
